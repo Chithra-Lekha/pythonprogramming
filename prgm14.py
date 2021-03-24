@@ -1,6 +1,8 @@
-sum=0
-n=int(input("enter number:"))
-sum=(n+ ((n*10)+n) + ((n*100)+(n*10)+n))
-print(n,"+",((n*10)+n),"+",((n*100)+(n*10)+n),"=",sum)
+n=input("enter number:"))
+temp1=n
+temp2=n+n
+temp3=n+n+n
+temp4=int(temp1)+int(temp2)+int(temp3)
+print(temp1,"+",temp2,"+",temp3,"=",temp4) 
 
 
